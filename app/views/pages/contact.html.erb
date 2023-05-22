@@ -1,0 +1,10 @@
+<h1>Our contacts:</h1>
+
+<%# pe %>
+<p>Today's date: <%= Date.today %></p>
+
+<ul>
+  <% @contacts.each do |contact| %>
+    <li><%= contact %></li>
+  <% end %>
+</ul>
